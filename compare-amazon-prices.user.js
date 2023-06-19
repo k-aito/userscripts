@@ -1,6 +1,11 @@
 // ==UserScript==
 // @name        Compare Amazon prices
 // @namespace   Violentmonkey Scripts
+// @downloadUrl https://raw.githubusercontent.com/k-aito/userscripts/main/compare-amazon-prices.user.js
+// @version     1.0
+// @author      k-aito
+// @description Compare the prices on multiple Amazon domains
+// @grant       GM_xmlhttpRequest
 // DP URLs
 // @match       https://www.amazon.com/*dp/*
 // @match       https://www.amazon.com.be/*dp/*
@@ -17,10 +22,6 @@
 // @match       https://www.amazon.nl/*gp/*
 // @match       https://www.amazon.de/*gp/*
 // @match       https://www.amazon.es/*gp/*
-// @grant       GM_xmlhttpRequest
-// @version     1.0
-// @author      -
-// @description Compare the prices on multiple Amazon domains
 // ==/UserScript==
 
 // DOMAIN_LIST that must be checked for price and coupon
