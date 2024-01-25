@@ -15,6 +15,7 @@
 // @match       https://www.amazon.de/*dp/*
 // @match       https://www.amazon.es/*dp/*
 // @match       https://www.amazon.co.uk/*dp/*
+// @match       https://www.amazon.in/*dp/*
 // GP URLs
 // @match       https://www.amazon.com/*gp/*
 // @match       https://www.amazon.com.be/*gp/*
@@ -24,6 +25,7 @@
 // @match       https://www.amazon.de/*gp/*
 // @match       https://www.amazon.es/*gp/*
 // @match       https://www.amazon.co.uk/*gp/*
+// @match       https://www.amazon.in/*dp/*
 // ==/UserScript==
 
 // DOMAIN_LIST that must be checked for price and coupon
@@ -36,6 +38,7 @@ const DOMAIN_LIST = [
   "www.amazon.de",
   "www.amazon.es",
   "www.amazon.co.uk",
+  "www.amazon.in",
 ]
 
 // Function to extract price and coupon
